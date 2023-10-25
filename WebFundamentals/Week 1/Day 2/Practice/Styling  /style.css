@@ -1,0 +1,18 @@
+.title {
+    background-color: black;
+    color: aqua;
+    padding-left: 10px;
+}
+.my {
+    color: white;
+}
+.com {
+    background-color: blueviolet;
+    color: white;
+    padding-left: 300px;
+}
+.co {
+    background-color: aqua;
+    color: blue;
+    padding-left: 700px;
+}
