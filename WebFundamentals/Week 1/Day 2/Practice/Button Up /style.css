@@ -1,3 +1,25 @@
 .aa{
+    
+    border-radius: 30px;
+    color: aqua;
+    border: 20px ;
+    width: 200px;
+    height: 50px;
+}
+.bb{
+    border-radius: 50%;
+    color: white;
     background-color: aqua;
+    border:aqua;
+    width: 40px;
+    height: 40px;
+}
+.cc{
+    
+    color: white;
+    box-shadow: 10px 5px 5px black;
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+    
 }
