@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: gray;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0px 20px 0px 20px;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: darkcyan;
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px 1px;
+}
