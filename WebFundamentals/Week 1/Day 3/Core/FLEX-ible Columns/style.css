@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+    margin: 0% auto;
+
+}
+.col{
+    background-color:aquamarine;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+
+}
+.col-2{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+}
+.col-3{
+    background-color:aquamarine;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+}   
