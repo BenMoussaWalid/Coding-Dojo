@@ -1,0 +1,39 @@
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FF{
+    
+    background-color: silver;
+    width: 900px;
+    margin: 0%auto;
+    padding: 0%auto;
+}
+.aa{
+    background-color: aqua;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bb{
+    background-color:deeppink;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cc{
+    background-color: white;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
