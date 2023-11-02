@@ -1,0 +1,72 @@
+.container{
+    background-color: aliceblue;
+    margin: 0% auto; 
+}
+.container1{
+    margin: 0% auto;
+    display: flex;
+    margin: 20px;
+    padding: 20px;  
+}
+.container2{
+    flex-direction: column;
+    margin: 20px;
+}
+.container3{
+    border: solid 2px black;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.container4{
+    border: solid 2px black;
+    margin: 20px;
+    width: 100%;
+    padding: 20px; 
+}
+.container5{
+    height: 150px;
+    border: solid 2px black;
+    margin-top: 40px;
+    margin-left: 70px; 
+    padding: 20px; 
+}
+
+.nav_bar{
+    background-color: silver;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 20px;
+}
+.but1{
+    background-color: blue;
+    color: white;
+    width: 10%;
+    height: 50px;
+    margin: 20px;
+}
+.but2{
+    background-color: yellow;
+    box-shadow: 3px 3px 3px;
+    height: 50px;
+    margin: 20px;
+}
+.but3{
+    background-color:chartreuse;
+    box-shadow: 3px 3px 3px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+input{
+    width: 20%;
+    height:50px ;
+    margin: 20px;
+}
+.aa{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+}
