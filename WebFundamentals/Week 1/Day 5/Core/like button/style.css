@@ -1,0 +1,17 @@
+.btn{
+    background-color: rgb(238, 212, 108);
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 20px;
+    box-shadow: 8px 8px black;
+    width: 20%;
+    height: 40px;
+    
+}
+.A{
+    width: 400px;
+    height: 150px;
+    border: solid  2px black;
+    padding: 20px;
+
+}
