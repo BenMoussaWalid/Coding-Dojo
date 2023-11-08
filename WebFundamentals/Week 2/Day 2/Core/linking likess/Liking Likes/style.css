@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    margin: 0% auto;
+    border: solid 5px black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 15px;
+}
+.container2{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    width: 20%;
+    height: 40px;
+    background-color: yellow;
+    box-shadow: 3px 3px 3px;
+}
