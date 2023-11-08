@@ -1,0 +1,122 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.container{
+    margin: 0% auto;
+}
+.header{
+    margin: 0% auto;
+    width: 80%;
+    justify-items: center;
+}
+.nav_bar{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ull{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+.body{
+    margin: 0% auto;
+    width: 80%;
+    justify-items: center;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-bottom: solid 2px black;
+}
+.body2{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.partie1 {
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px  rgb(228, 228, 228);
+
+}
+.partie2 {
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px  rgb(228, 228, 228);
+}
+.partie3 {
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px  rgb(228, 228, 228);
+}
+.partie4 {
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px  rgb(228, 228, 228);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    background-color:rgb(228, 228, 228);
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px black;
+}
+#but2{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+}
+.t1{
+    color: red;
+}
+.t2{
+    color: blue;
+}
