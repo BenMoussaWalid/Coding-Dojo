@@ -1,6 +1,6 @@
 num1 = 42 #variable declaration
 num2 = 2.3 #variable declaration
-boolean = True #variable declaration
+boolean = True #
 string = 'Hello World' 
 pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
 person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}

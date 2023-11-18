@@ -27,10 +27,10 @@ num_list =[2,3,6,9,8,4]
 #print(num_list[4])
 
 #    apprend a number to the list 
-num-list.append(101)
-print(num_list)
+num_list.append(101)
+#print(num_list)
 
 
 # remove en alement from the end of list
 removed = num_list.pop()
-print(removed)
+#print(removed)
