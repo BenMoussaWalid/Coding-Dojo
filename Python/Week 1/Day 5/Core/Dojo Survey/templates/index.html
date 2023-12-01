@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dojos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <form action="/process" method="post">
-    <div>
-        <label for="">Your Name</label>
-        <input type="text">
+    <div class="container mt-5">
+        <div class="main">
+            <h2>Dojo Survey</h2>
+            <form action="/process" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comment (optional):</label>
+                    <textarea class="form-control" name="comments" rows="5" cols="30"></textarea>
+                </div>
+                <div class="form-group">
+                    <h5>Dojo Location:</h5>
+                    <select class="form-control" name="Location">
+                        <option value="" disabled selected>--Select A Location--</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="online">Online</option>
+                        <option value="burbank">Burbank</option>
+                        <option value="bellevue">Bellevue</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fav_language">Favorite Language:</label>
+                    <select class="form-control" name="fav_language">
+                        <option value="" disabled selected>--Select A Language--</option>
+                        <option value="Html">Html</option>
+                        <option value="Python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="C#">C#</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
-    <div>
-        <select name="dojo location" id="">
-            <option value="">ans jose</option>
-            <option value="">chicago</option>
-            <option value="">seattle</option>
-            <option value="">washington</option>
-            <option value="">Seattle Wa</option>
-        </select>
-    </div>
-    <div>
-        <select name="Favorite Language" id="">
-            <option value="">html</option>
-            <option value="">Css</option>
-            <option value="">java script</option>
-            <option value="">python</option>
-        </select>
-    </div>
-    <div>
-        <div>
-            <label for="">Comment (optional)</label>
-            
-        
-    </div>
-    <div>
-        <input type="text">
-    </div>
-    <div>
-        <button>button</button>
-    </div>
-</form>
 
 </body>
 </html>

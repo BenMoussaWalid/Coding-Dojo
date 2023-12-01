@@ -13,7 +13,7 @@ def process():
     session["comments"] = request.form["comments"]
     session["Location"] = request.form["Location"]
     session["fav_language"] = request.form["fav_language"]
-    return redirect('/result')
+    return redirect('/action')
 
 @app.route('/action')
 def result():
