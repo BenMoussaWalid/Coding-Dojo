@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="containter d-flex justify-content-center col-12 mt-3">
+        <div class="d-flex justify-content-between col-10">
+            <form action="/process" method="post" class="col-4 bg-dark p-3">
+                <h1 class="text-primary">Register</h1>
+                
+                    {% with messages = get_flashed_messages() %}     <!-- declare a variable called messages -->
+                    {% if messages %}                            <!-- check if there are any messages -->
+                    {% for message in messages %}            <!-- loop through the messages -->
+                    <p class=" text-danger ">{{message}}</p>                   <!-- display each message in a paragraph tag -->
+                        {% endfor %}
+                {% endif %}
+                {% endwith %}
+                <div class="mb-3">
+                    <label for="" class="form-label text-light">First-Name:</label>
+                    <input type="text" class="form-control" aria-describedby="Help" name="first_name">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label text-light">last-name</label>
+                    <input type="text" class="form-control" aria-describedby="Help" name="last_name">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label text-light">Email:</label>
+                    <input type="text" class="form-control" aria-describedby="Help" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-light">Password</label>
+                    <input type="password" class="form-control" name="password">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-light">Confirm Password</label>
+                    <input type="password" class="form-control" name="confirm_password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+            <form action="/users/login" method="post" class="col-4 bg-dark p-3">
+                <h1 class="text-success">Login</h1>
+
+                <div class="mb-3">
+                    <label for="" class="form-label text-light">Email:</label>
+                    <input type="text" class="form-control" aria-describedby="Help" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-light">Password</label>
+                    <input type="password" class="form-control"  name="password">
+                </div>
+
+
+                <button type="submit" class="btn btn-success">Login</button>
+            </form>
+        </div>
+
+
+</body>
+
+</html>
